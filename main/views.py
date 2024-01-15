@@ -9,7 +9,7 @@ def index(request):
 
     context = {
         'title': 'Home - Главная',
-        'content': "Магазин мебели HOME",
+        'content': "Магазин Kufarok",
     }
 
     return render(request, 'main/index.html', context)
