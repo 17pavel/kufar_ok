@@ -86,7 +86,7 @@ def profile(request):
         
 
     context = {
-        'title': 'Home - Кабинет',
+        'title': 'Kufarok - Кабинет',
         'form': form,
         'orders': orders,
     }
